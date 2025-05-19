@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-using BIS.UI;
-using BIS.Core;
-using BIS.Shared.Interface;
-using static BIS.Core.Utility.Util;
-using static BIS.Core.Utility.Extension;
-namespace BIS.Manager
+using BIS.Runtime.Utility;
+using BIS.Runtime.Shared;
+using BIS.Runtime.UI;
+
+using static BIS.Runtime.Utility.Util;
+using static BIS.Runtime.Utility.Extension;
+
+namespace BIS.Runtime.Manager
 {
 
     public class UIManager//UIPopup관리하는 매니저

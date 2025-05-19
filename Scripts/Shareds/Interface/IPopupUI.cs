@@ -1,7 +1,8 @@
 using System;
+
 using UnityEngine;
 
-namespace BIS.Shared.Interface
+namespace BIS.Runtime.Shared
 {
     public interface IPopupUI
     {

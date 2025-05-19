@@ -1,6 +1,4 @@
-using BIS.Shared;
-
-namespace BIS.Shared.Interface
+namespace BIS.Runtime.Shared
 {
     public interface IScene
     {

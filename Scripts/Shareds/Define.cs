@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace BIS.Shared
+namespace BIS.Runtime.Shared
 {
     public static class Define { }
     public enum EMainTabbar

@@ -1,0 +1,16 @@
+{
+    "name": "BIS.Runtime.Utility",
+    "rootNamespace": "BIS.Runtime.Utility",
+    "references": [
+        "GUID:9b5845cc0cd7a0144a376154872b9a35"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "BIS.Runtime.UI.Scene",
+    "rootNamespace": "BIS.Runtime.UI.Scene",
+    "references": [
+        "BIS.Runtime.Utility",
+        "BIS.Runtime.Shared"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

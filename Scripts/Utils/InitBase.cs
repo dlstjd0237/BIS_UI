@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace BIS.Initializes 
+namespace BIS.Runtime.Utility
 {
     public class InitBase : MonoBehaviour
     {

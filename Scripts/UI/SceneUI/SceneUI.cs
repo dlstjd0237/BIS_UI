@@ -1,10 +1,9 @@
-using BIS.Shared;
-using BIS.Shared.Interface;
-using BIS.Initializes;
+using BIS.Runtime.Shared;
+using BIS.Runtime.Utility;
 
-namespace BIS.Scenes
+namespace BIS.Runtime.Scene
 {
-    public class BaseScene : InitBase, IScene
+    public class SceneUI : InitBase, IScene
     {
         public EScene SceneType { get; set; } = EScene.Unknown;
 

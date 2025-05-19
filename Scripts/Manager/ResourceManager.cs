@@ -1,11 +1,14 @@
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.ResourceManagement.AsyncOperations;
 using System;
-using Object = UnityEngine.Object;
-using UnityEngine.AddressableAssets;
+using System.Collections.Generic;
 
-namespace BIS.Manager
+using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+
+
+using Object = UnityEngine.Object;
+
+namespace BIS.Runtime.Manager
 {
     public class ResourceManager
     {

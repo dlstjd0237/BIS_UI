@@ -4,16 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+
 using TMPro;
 
-using BIS.Initializes;
-using BIS.Shared;
-
-using static BIS.Core.Utility.Util;
+using BIS.Runtime.Utility;
+using BIS.Runtime.Shared;
 
 using Object = UnityEngine.Object;
 
-namespace BIS.UI
+using static BIS.Runtime.Utility.Util;
+
+namespace BIS.Runtime.UI
 {
     public class UIBase : InitBase
     {

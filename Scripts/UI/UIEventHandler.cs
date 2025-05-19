@@ -1,10 +1,12 @@
-using BIS.Shared;
 using System;
 using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace BIS.UI
+using BIS.Runtime.Shared;
+
+namespace BIS.Runtime.UI
 {
     public class UIEventHandler : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IDragHandler, IPointerEnterHandler, IPointerExitHandler
     {

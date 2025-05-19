@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-namespace BIS.Core.Utility
+namespace BIS.Runtime.Utility
 {
     public static class Util
     {
@@ -95,8 +95,8 @@ namespace BIS.Core.Utility
             return hit;
         }
 
-        //public static void UIColorChange<T>(GameObject go, Color color, float durtaion = 0.2f, TweenCallback onComplete = null) where T : Graphic
-        //    => go.GetComponent<T>().DOColor(color, durtaion).OnComplete(onComplete).SetUpdate(true);
+        public static void UIColorChange<T>(GameObject go, Color color, float durtaion = 0.2f, TweenCallback onComplete = null) where T : Graphic
+            => go.GetComponent<T>().DOColor(color, durtaion).OnComplete(onComplete).SetUpdate(true);
 
 
 
@@ -109,13 +109,13 @@ namespace BIS.Core.Utility
         public static void UIFadeOut(GameObject go, bool isFadeOut, float duration = 0.2f, Action onCompleteCallBack = null)
         {
             CanvasGroup canvas = GetOrAddComponent<CanvasGroup>(go);
-            //canvas.DOFade(isFadeOut == true ? 0 : 1, duration)
-            //    .OnComplete(() =>
-            //    {
-            //        canvas.interactable = !isFadeOut;
-            //        canvas.blocksRaycasts = !isFadeOut;
-            //        onCompleteCallBack?.Invoke();
-            //    }).SetUpdate(true);
+            canvas.DOFade(isFadeOut == true ? 0 : 1, duration)
+                .OnComplete(() =>
+                {
+                    canvas.interactable = !isFadeOut;
+                    canvas.blocksRaycasts = !isFadeOut;
+                    onCompleteCallBack?.Invoke();
+                }).SetUpdate(true);
         }
     }
 }

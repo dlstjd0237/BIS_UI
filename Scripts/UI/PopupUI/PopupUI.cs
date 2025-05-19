@@ -1,10 +1,12 @@
-using UnityEngine;
-using BIS.Manager;
-using BIS.Core.Utility;
 using System;
-using BIS.Shared.Interface;
 
-namespace BIS.UI.Popup
+using UnityEngine;
+
+using BIS.Runtime.Shared;
+using BIS.Runtime.Manager;
+using BIS.Runtime.Utility;
+
+namespace BIS.Runtime.UI.Popup
 {
     public abstract class PopupUI : UIBase, IPopupUI
     {

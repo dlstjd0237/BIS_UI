@@ -1,0 +1,19 @@
+{
+    "name": "BIS.Runtime.UI.Popup",
+    "rootNamespace": "BIS.Runtime.UI.Popup",
+    "references": [
+        "GUID:cf381763be78c9948b3708a06dd1493f",
+        "GUID:b8508197c7e0dba45b558e371094f178",
+        "GUID:022bf7c84aab09749a921413c7937ff7",
+        "GUID:8da8d1d5ab2d4a34a85775f705a298fb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

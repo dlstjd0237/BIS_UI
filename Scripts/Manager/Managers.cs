@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace BIS.Manager
+namespace BIS.Runtime.Manager
 {
     public class Managers : MonoBehaviour
     {

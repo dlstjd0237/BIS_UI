@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace BIS.Core.Utility
+namespace BIS.Runtime.Utility
 {
     public static class Extension
     {
