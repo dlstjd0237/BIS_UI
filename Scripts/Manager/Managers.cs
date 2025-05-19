@@ -5,7 +5,7 @@ namespace BIS.Runtime.Manager
     public class Managers : MonoBehaviour
     {
         private static Managers s_inctance;
-        private static Managers Instacne
+        private static Managers Inctance
         {
             get
             {
@@ -38,7 +38,7 @@ namespace BIS.Runtime.Manager
 
                 DontDestroyOnLoad(go);
 
-                //�ʱ�ȭ
+                //ÃÊ±âÈ­
                 s_inctance = go.GetComponent<Managers>();
             }
         }
